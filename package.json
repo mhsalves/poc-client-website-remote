@@ -4,5 +4,21 @@
   "main": "index.js",
   "repository": "git@github.com:mhsalves/poc-client-website-remote.git",
   "author": "Matheus Alves <matheus.alves@meliuz.com.br>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "PORT=3001 next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "eslint-config-next": "^13.2.1",
+    "next": "^13.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.14.2",
+    "@types/react": "18.0.28",
+    "typescript": "4.9.5"
+  }
 }
