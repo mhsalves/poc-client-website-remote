@@ -10,12 +10,6 @@ module.exports = {
           './hooks': './src/hooks',
           './Timer': './src/components/Timer',
         },
-        shared: {
-          react: {
-            requiredVersion: false,
-            singleton: true,
-          },
-        },
       })
     );
 
