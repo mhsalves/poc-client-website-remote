@@ -7,8 +7,14 @@ module.exports = {
         name: 'remote-module',
         filename: 'static/chunks/remoteEntry.js',
         exposes: {
-          './components': './src/components',
           './hooks': './src/hooks',
+          './Timer': './src/components/Timer',
+        },
+        shared: {
+          react: {
+            requiredVersion: false,
+            singleton: true,
+          },
         },
       })
     );
